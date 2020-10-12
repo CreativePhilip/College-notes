@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+\title{ Algebra and Analytic Geometry lecture }
+\author{Philip Policki}
+\date{9th October 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Sets of numbers}
+	\begin{itemize}
+		\item Natural Numbers $N = \{1, 2, 3, 4, ...\}$
+		\item Integers $Z = \{ ..., -3, -2, -1, 0, 1, 2, 3, ... \}$
+		\item Rational Numbers $Q = \{  \frac{p}{q}; q,p \subset Z, q \neq 0  \}$
+		\item Real Numbers $R \emph{Any distance from 0 on the number line}$
+	\end{itemize}
+
+\section{Operation law on numbers}
+
+	\begin{enumerate}
+	\item Commutative law \\ 
+	$ a + b = b + a$ \\
+	$ ab = ba $ 
+	\item Associative law \\ 
+	$ (a + b) + c = a + (b + c) $
+	$ (ab)c = a(cb)$
+	$ a(b+ c) = ab + bc $ 
+	\end{enumerate}
+For $\{N, Z, Q, R\}$ all the laws listed above are true 
+\section{Divisibility}
+	$A|B$  if there is a $c \subset N $
+	
+\section{Prime Numbers}
+	A natural number $\neq 1$ is called a prime if it has only two divisors, namely 1 and itself. \\
+	$Examples: 2, 3, 5, 7, ...$
+	
+	\subsection{Theorem}
+	Every natural number can be uniquely (up to orders of factors) described as a product of prime numbers.\\
+	$ Example: 24 = 2*2*2*3$
+
+\section{Principle of Mathematical Induction}
+Law for proving statements
+
+If $ p_{1}, p_{2}, ..., p_{k} $ are statements and: 
+	\begin{enumerate}
+		\item $p_{1}$ is true
+		\item if $p_{k}$ is true, then $p_{k + 1}$ is also true
+	\end{enumerate}
+Example: 
+
+\section{Binomial formula}
+Newtons formula for expanding powers of sums\\
+$
+(x+y)^1 = x + y \\
+(x+y)^2 = x^2 + 2xy + y^2 \\ 
+(x+y)^3 = x^3 + 3x^2y + 3xy^2 + x^2 \\
+(x+y)^4 = \emph{To difficult to remember or to expand}
+$
+
+\subsection{Theorem}
+$
+(a + b)^n = \binom{n}{0}a^nb^0 + \binom{n}{1} a^{n-1}b^{1} + \binom{n}{2} a^{n-2}b^{2} + ... + \binom{n}{n} a^{n-n}b^{n}\\
+$
+
+This can be simplified to: \\
+$
+\sum\limits_{k=0}^n \binom{n}{k}a^{n-k}b^k
+$
+
+\subsection{Find a given coefficient of a given equation}
+Question: Find the coefficient of $x^4$ in $(2x - \frac{1}{x})^6 \\ \\$
+\\
+$(2x - \frac{1}{x})^6 = (2x + \frac{-1}{x})^6 \\  \\
+\sum\limits_{k=0}^6 \binom{6}{k}(2x)^{6-k}(\frac{-1}{x})^k 
+$\\
+To calculate 'k' to substitute it into the equation we have to have only one x so: \\
+$
+2^{6-k}x^{6-k}-x^{-k} -> x^{6-k-k} -> x^{6-2k}
+$\\
+Based on that and the fact that we want to get the coefficient of $x^4$ we do the following: \\
+\\
+$
+6-2k = 4 \\
+k = 1
+$\\
+So we substitute and we get: \\
+\\
+$\binom{6}{1}2x^{6-1} * (\frac{-1}{x})^1 = \frac{6!}{5!}2x^5 * \frac{-1}{x} =  6 * 2x^5  * \frac{-1}{x} = -12x^4 $ \\ 
+\\
+Therefore the answer is -12 
+
+
+
+		
+
+
+
+
+
+\end{document}

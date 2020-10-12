@@ -1,0 +1,78 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{setspace}
+
+\title{Mathematical Analysis \\ Lecture }
+\author{Philip Policki}
+\date{12th October 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+\setstretch{1.2}
+\maketitle
+\section{Rules}
+	No textbook, so take notes. \\
+	Classes are mandatory
+	
+\section{Requirements}
+	During the classes we will start with a quiz, every practice.
+	To pass the course you need $50\%$ of points from the quizzed. A Quizes is 15min every quiz is worth 5 points. You get points from your top 10 quizes.
+\section{Notation}
+\subsection{Number sets}
+\begin{enumerate}
+	\item Natural Numbers $ N = \{1, 2, 3, ...\}$ 
+	\item Integers $ \mathbb{Z} = \{..., -2, -1, 0, 1, 2, ...\}$
+	\item Rational $ \mathbb{Q} = \{ \frac{p}{q}; p, q \in Z, q\neq0 \} $
+	\item Irrational $ ex.: \sqrt{2}, \pi, ... $ 
+	\item Real Numbers $\mathbb{R} = Rational + Rational $
+\end{enumerate}
+
+\subsection{Sets notation}
+$(a, b) = x \in R: a<x<b$ \\
+$(a, b) = x \in R: a \leq x \leq b$ \\	
+$(a, \infty) = x\in R: x > a$ \\ \\
+$(a, b) - open interval$ \\
+$ [a, b] - closed interval $ \\ \\
+$ A \subset B$ A is a subset of B \\
+$ x\in A$ X is an element of A, x belongs to A \\
+$ x\notin A$ X is not an element of A, x does not belong to A \\
+
+\subsection{Cartesian Product}
+Given two sets A and B, we can form the set consisting of all ordered pairs of the form $(a, b)$ where $a \in A$ and $b \in B$. This set is called the Cartesian product of A and B and is denoted by $AxB$\\
+$AxB \{(a, b): a\in A, \in B \}$ \\
+If $A=B$, then $AxA$ is denoted by $A^2$\\
+
+\subsection{Quantifiers}
+\begin{enumerate}
+	\item  Existential $\exists$ "There exists x such that", "For at least one x"
+	\item Universal $\forall$ "For all x", "For each x", "For every x"
+\end{enumerate}
+
+Example: \\
+$ \exists \; t > 0 \; \forall \; x\in \mathbb{R} \; x^2 + 4x + 4 > t $ \\
+The statement above is false \\
+The negation of the statement: \\
+$ \forall \; t>0 \; \exists \; x_0 \in \mathbb{R} \; x_0^2 + 4x_0 + 4 \leq t $
+
+\section{Functions}
+A function f is a rule that assigns to each element x in a set A \underline{exactly one} element , called f(x), in a set B. \\
+In our class $ A \subset \mathbb{R} $ and $ B \subset \mathbb{R}$
+The set A is called the domain of the function f and will be denoted $D_f$.\\
+The range of the function f is the set of all possible values of f(x) as x varies throughout the domain. The range of f will be denoted by $R_f$.\\
+The most common method for visualizing a function is its.\\ 
+If f is a function with domain $D_f$ then its graph is the set of ordered pairs. \\
+$ \{(x, y) \in \mathbb{R}^2 \; x\in D_f, y=f(x) \}$ \\ \\
+Example: \\ 
+Min function  \\
+$f(x) = min\{x, x^2\}$ \\
+$f(2) = min\{2, 4\}$ = 2 \\
+$f(\frac{1}{2}) = min\{\frac{1}{2}, \frac{1}{4}\}$ = $\frac{1}{4}$ \\ \\ \\
+Absolute \\
+$f(x) = |x| = \{x, if x \geq 0 \; or -x, if x-2 < 0\}$\\
+$f(x) = |x -2| = \{x-2, if x \geq 0 \; or -(x-2), if x-2 < 0\}$ \\ \\
+$|x-a|$ represents the distance between x and a
+\end{document}
