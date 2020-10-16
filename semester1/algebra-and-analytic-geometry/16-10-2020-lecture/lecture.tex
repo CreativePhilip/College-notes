@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{setspace}
+
+\title{Algebra and Analytic Geometry Lecture}
+\author{Philip Policki}
+\date{16th October 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+\setstretch{1.2}
+\maketitle
+\section{Complex numbers}
+Def: A complex number is a pair of real numbers.\\
+Example: (2, 3) they are traditionally denoted by z, u, w .. . \\
+The set of all complex numbers will be denoted by $\mathbb{C}$ so: \\
+$\mathbb{C} = \{(x, y): x, y \in \mathbb{R} \}$ \\
+if z = (x, y) $(x, y) \in \mathbb{R}$, then x is called the real part of z and denoted as $R_ez$ and y is the imaginary part.\\ \\
+Geometric interpretation: \\
+A complex number z=(x, y) can be viewed as a point on a Cartesian plane. Such plane will be called the complex plane. \\ \\
+As Vectors on the plane with a initial point at the origin of the plane \\ \\
+
+\section{Operations on complex numbers}
+\begin{enumerate}
+	\item Addition:\\ f $z_1 = (x_1, y_1)$, $z_2 = (x_2, y_2) \in \mathbb{C}$, then their sum is defined to be $z_1 + z_2 = (x_1 + x_2, y_1 + y_2)$ \\
+	$(1, 0)+(b, 0) = (a+b, 0)$
+	\clearpage
+	\item Multiplication:\\ if $z_1 = (x_1, y_1), z_2 = (x_1, y_1)$ then their product is defined to be the number $z_1z_2=(x_1x_2 - y_1y_2,\; x_1y_2 + x_2y_1)$ \\
+	Example: $(1,2)*(3, -1) = (1*3 - 2(-1), \; 1(-1), 3*2) = (5, 5)$ \\
+	Properties: Commutative and Associative \\
+	$(a, 0)(b, 0) = (ab, 0)$ \\
+	$(0, 1)(0, 1) = (-1, 0)$\ \\
+	$z = (x,y) = (x, 0) + (0, y) = (x, 0) + (0, 1)(y, 0) = x+iy$
+	\item Better multiplication: \\
+	$(3 + 2i)(1 - 2i) = (3+2i)1 + (3+2i)(2i) = 3+2i+6i-4=-1 + 8i$
+	\item Inverse: \\
+	$z = x+ iy$ \\
+	$w = \frac{x}{x^2 + y^2} = i\frac{-y}{x^2 + y^2}$ \\ 
+	$w = \frac{1}{z}$ 	
+	\item Conjugate: \\
+	Properties: \\
+	$\overline{z} = x+i(-y) = x-iy$
+	\begin{enumerate}
+		\item $\overline{z+w} = \overline{z} + \overline{w}$
+		\item $\overline{z*w} = \overline{z} * \overline{w}$
+		\item $\overline{z^n} = \overline{z}^n$
+	\end{enumerate}
+	\item Modulus: \\
+	if $z=x+iy$ the modulus is $|z|=\sqrt{x^2 + y^2}$
+	
+\end{enumerate}
+\end{document}
