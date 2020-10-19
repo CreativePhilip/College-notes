@@ -14,6 +14,8 @@
 \begin{document}
 \setstretch{1.2}
 \maketitle
+\tableofcontents
+\pagebreak
 \section{Rules}
 	No textbook, so take notes. \\
 	Classes are mandatory
@@ -28,7 +30,7 @@
 	\item Integers $ \mathbb{Z} = \{..., -2, -1, 0, 1, 2, ...\}$
 	\item Rational $ \mathbb{Q} = \{ \frac{p}{q}; p, q \in Z, q\neq0 \} $
 	\item Irrational $ ex.: \sqrt{2}, \pi, ... $ 
-	\item Real Numbers $\mathbb{R} = Rational + Rational $
+	\item Real Numbers $\mathbb{R} = Rational + Irrational $
 \end{enumerate}
 
 \subsection{Sets notation}
@@ -85,4 +87,77 @@ Absolute \\
 \end{equation}
 
 $|x-a|$ represents the distance between x and a
+\subsection{The Vertical Line Test}
+A curve is the XY plane is the graph of a function of x if and only if no vertical line intersects the curve more than once.
+\subsection{Classes of functions}
+\begin{enumerate}
+	\item Periodic functions \\
+	We say that f is a periodic function if \\ 
+	$\exists T>0 \; \forall x\in D_f(x \pm T \in D_f$ and $f(x+T) = f(x))$ \\
+	A periodic function is a function that repeats its values after some determined period has been added to its independent variable.\\
+	\item Symmetric functions
+	\begin{itemize}
+		\item Even\\
+		A function f is called even if: \\
+		$\forall x \in D_f \; (-x  \in D_f)$ and $f(-x) = f(x)$ \\
+		The geometric  significance of an even function is that its graph is symmetric with respect to the Y axis. \\
+		If f is even $D_f$ is symmetric about the Y Axis.
+		\item Odd \\ 
+		A function f is called odd if: \\
+		$ \forall x \in D_f (-x \in D_f) $ and $f(-x) = -f(x)$\\
+		The graph of and odd function is symmetric about the origin.\\
+		If an odd function is defined at x=0 then f(0) must be 0!!\\ \\
+		Example:
+		Check if function is even or odd.\\
+		$f(x) = \frac{3^x - 3^{-x}}{x}$
+		\begin{enumerate}
+			\item Check if domain is symmetric \\
+			$D_f = \mathbb{R}\setminus \{0\}$
+			\item Substitute -x for x
+		\end{enumerate}
+	\item Monotonicity: \\
+	A function is monotonic if it is increasing, or decreasing, or non-decreasing, or non-increasing.
+	\begin{itemize}
+		\item Increasing:\\
+		A function f is called increasing on a set $I \subset D_f$, \\
+		if $\forall x_1, x_2 \in I \; [(x_1 < x_2) \Rightarrow (f(x_1) < f(x_2))]$
+		\item Non-decreasing: \\
+		A function f is called increasing on a set $I \subset D_f$, \\
+		if $\forall x_1, x_2 \in I \; [(x_1 < x_2) \Rightarrow (f(x_1) \leq f(x_2))]$
+		\item Decreasing: \\
+		A function f is called increasing on a set $I \subset D_f$, \\
+		if $\forall x_1, x_2 \in I \; [(x_1 < x_2) \Rightarrow (f(x_1) > f(x_2))]$
+		\item Non-increasing: \\
+		A function f is called increasing on a set $I \subset D_f$, \\
+		if $\forall x_1, x_2 \in I \; [(x_1 < x_2) \Rightarrow (f(x_1) \geq f(x_2))]$
+	\end{itemize}
+	Algebraic way to check monotonicity: \\
+	let $f(x) = \frac{1}{1+x^2}$ and $I = (-\infty, 0]$ \\
+	Take any 2 points $x_1, x_2 \in I$ with $x_1 < x_2$. \\
+	$f(x_2) - f(x_1) = \frac{1}{1+x_2^2} - \frac{1}{1+x_1^2}$ = \\
+	$\frac{1+x_1^2 - 1 + x_2^2}{(1+x_1^2)(1+x_2^2)}$ = \\
+	$\frac{(x_1-x_2)(x_1+x_2)}{(1+x_2^2)(1+x_1^2)}$ \\
+	$x_1 - x_2  < 0$ \\
+	$x_1 + x_2 < 0$ \\
+	\end{itemize}
+	\subsection{New functions from Old functions}
+	\begin{itemize}
+		\item Vertical and horizontal shifts: \\
+		Suppose $c>0$.\\ To obtain the graph of $y = f(x) + c$ shift the graph of y a distance of c units upwards. If $y = f(x)-c$ shift downwards. \\ \\
+		To obtain the graph of $y=f(x-c)$ shift the graph y a distance of c units to the right. \\
+		To obtain the graph of $y=f(x+c)$ shift the graph y a distance of c units to the left. \\
+		\item Vertical and horizontal stretching and reflecting: \\
+		Suppose $c>1$. \\
+		To obtain the graph $y=c*f(x)$ stretch y vertically by a factor of x. \\
+		To obtain the graph $y=f(c*x)$ compress the graph of y horizontally by a factor of c. \\
+		To obtain the graph $y=-f(x)$ reflect the graph of y about the x axis. \\
+		To obtain the graph $y=f(-x)$ reflect the graph of y about the y axis. \\
+		\item Algebra of functions: \\
+		let f and g be functions with domains $D_f$ and $D_g$. Then the functions $f_g$, $f-g$, $fg$ and $\frac{f}{g}$ are as follows: \\
+		$(f\pm g)(x) = f(x)\pm g$; $D_{f+g} = D_f \cap D_g$ \\ 
+		$(f* g)(x) = f(x)*g(x)$; $D_{f*g} = D_f \cap D_g$\\
+		$(\frac{f}{g})(x) = \frac{f(x)}{f(g)}$; $D_{f+g} = D_f \cap D_g$
+	\end{itemize}
+	
+\end{enumerate}
 \end{document}

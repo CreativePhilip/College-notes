@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Rules}{2}%
+\contentsline {section}{\numberline {2}Requirements}{2}%
+\contentsline {section}{\numberline {3}Notation}{2}%
+\contentsline {subsection}{\numberline {3.1}Number sets}{2}%
+\contentsline {subsection}{\numberline {3.2}Sets notation}{2}%
+\contentsline {subsection}{\numberline {3.3}Cartesian Product}{3}%
+\contentsline {subsection}{\numberline {3.4}Quantifiers}{3}%
+\contentsline {section}{\numberline {4}Functions}{3}%
+\contentsline {subsection}{\numberline {4.1}The Vertical Line Test}{4}%
+\contentsline {subsection}{\numberline {4.2}Classes of functions}{4}%
+\contentsline {subsection}{\numberline {4.3}New functions from Old functions}{5}%
