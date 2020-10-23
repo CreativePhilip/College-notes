@@ -14,6 +14,8 @@
 \begin{document}
 \setstretch{1.2}
 \maketitle
+\tableofcontents
+\pagebreak
 
 \section{Introduction}
 \subsection{How to pass}
@@ -41,5 +43,27 @@ Acceleration is a derivative of the velocity vector as well as the second deriva
 	\item Vector Scaling \\
 	$ kA = (kx_a, ky_a, kz_a)$
 \end{enumerate}
+\section{Kinematics}
+\subsection{Cartesian reference frame}
+$f'(x) = \frac{df(x)}{dx} = \lim_{\Delta t\to 0} \frac{f(x + \Delta x)  - f(x)}{\Delta x}$
+\begin{itemize}
+	\item Position Vector $\vec{r}(x^{(t)}, y^{(t)}, z^{(t)})$
+	\item Velocity Vector $\vec{v} = \frac{d\vec{r}}{dt}$ \\
+	$|\vec{v}| = \sqrt{\dot{x}^2 + \dot{y}^2 + \dot{z}^2}$
+	\item Acceleration Vector $\vec{a} = \frac{d\vec{v}}{dt}$ = $\frac{d}{dt}(\frac{d\vec{r}}{dt}) = \frac{d^2}{dt_2} = \ddot{\vec{r}} = \dot{\vec{v}}$ \\
+	$|\vec{a} = \sqrt{\ddot{x}^2 + \ddot{y}^2 + \ddot{z}^2}|$
+\end{itemize}
+\subsubsection{circular motion}
+$\vec{r} = x \hat{n_x} + y \hat{n_y}$ \\
+$\vec{v} = \dot{x} \hat{n_x} + \dot{x} \hat{n_Y} $
+\subsection{Cylindrical reference frame}
+Helps to simplify motions like circular, spiral in 2d or 3d etc.
+Coordinates in the rf:
+\begin{itemize}
+	\item z = height
+	\item $\rho$ magnitude of the radius
+	\item $\phi$ projection angle of the radius
+\end{itemize}
+
 
 \end{document}

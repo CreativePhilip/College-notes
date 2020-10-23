@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Passing}{2}%
+\contentsline {section}{\numberline {2}Curriculum}{2}%
+\contentsline {section}{\numberline {3}What is logic?}{2}%
+\contentsline {section}{\numberline {4}Sentences in logic}{2}%
+\contentsline {section}{\numberline {5}Logic Laws}{3}%
+\contentsline {section}{\numberline {6}The basics of Set Theory}{3}%
+\contentsline {subsection}{\numberline {6.1}Notation}{3}%

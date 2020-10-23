@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Introduction}{2}%
+\contentsline {subsection}{\numberline {1.1}How to pass}{2}%
+\contentsline {subsection}{\numberline {1.2}Curriculum}{2}%
+\contentsline {section}{\numberline {2}Some math}{2}%
+\contentsline {section}{\numberline {3}Vector Operations}{2}%
+\contentsline {section}{\numberline {4}Kinematics}{2}%
+\contentsline {subsection}{\numberline {4.1}Cartesian reference frame}{2}%
+\contentsline {subsubsection}{\numberline {4.1.1}circular motion}{3}%
+\contentsline {subsection}{\numberline {4.2}Cylindrical reference frame}{3}%
