@@ -10,6 +10,7 @@
 
 \usepackage{natbib}
 \usepackage{graphicx}
+\graphicspath{{./imgs/}}
 
 \begin{document}
 \setstretch{1.2}
@@ -140,6 +141,7 @@ A curve is the XY plane is the graph of a function of x if and only if no vertic
 	$x_1 - x_2  < 0$ \\
 	$x_1 + x_2 < 0$ \\
 	\end{itemize}
+	\end{enumerate}
 	\subsection{New functions from Old functions}
 	\begin{itemize}
 		\item Vertical and horizontal shifts: \\
@@ -150,14 +152,66 @@ A curve is the XY plane is the graph of a function of x if and only if no vertic
 		Suppose $c>1$. \\
 		To obtain the graph $y=c*f(x)$ stretch y vertically by a factor of x. \\
 		To obtain the graph $y=f(c*x)$ compress the graph of y horizontally by a factor of c. \\
-		To obtain the graph $y=-f(x)$ reflect the graph of y about the x axis. \\
-		To obtain the graph $y=f(-x)$ reflect the graph of y about the y axis. \\
+		To obtain the graph $y=-f(x)$ reflect the graph of y about the y axis. \\
+		To obtain the graph $y=f(-x)$ reflect the graph of y about the x axis. \\
 		\item Algebra of functions: \\
 		let f and g be functions with domains $D_f$ and $D_g$. Then the functions $f_g$, $f-g$, $fg$ and $\frac{f}{g}$ are as follows: \\
-		$(f\pm g)(x) = f(x)\pm g$; $D_{f+g} = D_f \cap D_g$ \\ 
+		$(f\pm g)(x) = f(x)\pm g(x)$; $D_{f+g} = D_f \cap D_g$ \\ 
 		$(f* g)(x) = f(x)*g(x)$; $D_{f*g} = D_f \cap D_g$\\
 		$(\frac{f}{g})(x) = \frac{f(x)}{f(g)}$; $D_{f+g} = D_f \cap D_g$
 	\end{itemize}
+	\subsection{Composite Functions}
+	Given 2 functions f and g the \underline{composite} function is denoted by $f \circ  g$ and is defined as $(f \circ g)(x) = f(g(x)))$.\\
 	
-\end{enumerate}
+	\underline{Example:} \\
+	If $f(x) = \sqrt{2-x}$ and $g(x) = \sqrt{x}$, then: \\
+	$(f \circ g)(x) = f(g(x)) = \sqrt{2-\sqrt{x}}$ \\
+	$(g \circ f)(x) = g(f(x)) = \sqrt{\sqrt{2-x}}$  \\
+	For a $\sqrt{x}$ to be defined, we must have $x\geq 0$. For $\sqrt{2-\sqrt{x}}$ to be defined we must have a $2-\sqrt{x} \geq 0$ that is $\sqrt{x} \leq 2$ or $x\leq 4$. One can see that $D_{f\circ g} = [0, 4]$ therefore $D_{g\circ f} = (-\infty, 2]$ \\ \\
+	Let $h(x) = 3^{\sqrt{x+3}}$, write it as $f \circ g$: \\
+	$f(x) = 3^x$ \\ $g(x) = \sqrt{x+3}$ \\
+	$(f^{-1} \circ f)(x) = x, \forall x\in D_f$ \\
+	$(f \circ f^{-1})(x) = x, \forall x\in R_f$
+	\subsection{One-to-one functions}
+	A function f is called an one-to-one function on a set $I \subset D_f$ \\
+	$\forall x_1, x_2 \in I$ $[(x_1 \neq x_2) \Rightarrow (f(x_1) \neq f(x_2))]$ \\
+	\underline{Example:}
+	\begin{itemize}
+		\item (Strictly) increasing function are 1-1
+		\item Exponential functions are 1-1
+	\end{itemize}
+	\subsubsection{Horizontal Line Test}
+	A function f in one-to-one if and only if no horizontal line intersects the graph at most once \\ \\
+	
+	Let f be a 1-1 function with a domain $D_f$ and a range $R_f$. Then its \underline{inverse function} $f^{-1}$ has a domain $D_{f^{-1}} = R_f$ and $R_{f^{-1}} = D_f$ and is defined by: \\
+	$(f^{-1})(y) = x \Leftrightarrow f(x) = y$ \\
+	\underline{Example:}\\
+	Let $g(x) = 3+x+2^x$. Is g invertible ? Yes, because its a strictly increasing function.\\
+	The inverse of $y=a^x$ is $y=\log_ax$ where $a>1$. \\
+	The inverse of $y=a^x$ is $y=\log_ax$ where $0<a< 1$.\\ 
+	\pagebreak
+	\section{Logarithms}
+	The logarithm to the bare a is defined as the inverse function of the exponential function with bare a, that is $y=\log_ax$ means that $x=a^y$
+	
+	\includegraphics[scale=0.17]{1.png}
+	
+	\subsection{Laws of logarithms}
+	\begin{enumerate}
+		\item $\log_a(bc) = \log_ab + \log_ac$
+		\item $\log_ab^c = c*\log_ab$
+		\item $\log_a\frac{b}{c} = \log_ab - \log_ac$
+		\item $\log_ac = \log_ab * \log_bc$
+	\end{enumerate}
+	\pagebreak
+	\section{Trigonometry}
+	A standard position of an angle occurs when we place its vertex at the origin of a coordinate system and initial side on the positive x-axis. \\
+	A positive angle is obtained by rotating the initial side counterclockwise until it coincides with the terminal side. Negative angles are obtained by a clockwise rotation. Angles can be measured in radians. Mandatory for this class. \\
+	For an acute angle $\alpha$ the trigonometric functions are defined as ratios. \\
+	$\sin(\alpha) = \frac{opposite}{hypothenuse}$ \\
+	$\cos(\alpha) = \frac{adjacent}{hypothenuse}$ \\
+	$\tan(\alpha) = \frac{opposite}{adjacent}$ \\
+	$\cot(\alpha) = \frac{adjacent}{opposite}$ \\
+	\includegraphics[scale=0.2]{2.png} 
+	The signs of the trig functions for angles in each of the quadrants can be remembered with: "\textbf{A}ll \textbf{S}tudents \textbf{T}ake \textbf{C}alculus"
+ 
 \end{document}
