@@ -15,3 +15,6 @@
 \contentsline {section}{\numberline {5}Logarithms}{8}%
 \contentsline {subsection}{\numberline {5.1}Laws of logarithms}{8}%
 \contentsline {section}{\numberline {6}Trigonometry}{9}%
+\contentsline {subsection}{\numberline {6.1}Trigonometric identities}{10}%
+\contentsline {subsection}{\numberline {6.2}Reduction formulas}{11}%
+\contentsline {subsection}{\numberline {6.3}Inverse of trigonometric functions / Cyclometric functions}{11}%
