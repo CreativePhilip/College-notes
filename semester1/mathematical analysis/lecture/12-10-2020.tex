@@ -247,9 +247,62 @@ A curve is the XY plane is the graph of a function of x if and only if no vertic
 	\begin{center}\includegraphics[scale=0.25]{4.png}\end{center}
 	The function $\cos(x)$ is not 1-1 but if we consider $f(x) = \cos(x)$ for $x\in [0, \pi]$ as a 1-1 function The existing inverse is called arc-cosine $\arccos(x)=y \Leftrightarrow \sin(y)=x$ and $0 \leq \pi$ 
 	\begin{center}\includegraphics[scale=0.25]{3.png}\end{center}
-	
  	\underline{Example: }\\
  	Show that $\arcsin(x) + \arccos(x) = \frac{\pi}{2}$\\
  	$\arcsin(x) = \alpha \Leftrightarrow \sin(\alpha) = x$ and $\frac{-\pi}{2} \leq \alpha \leq \frac{\pi}{2}$ \\
  	$\arccos(x) = \beta \Leftrightarrow \cos(\beta) = x$ and $0 \leq \beta \leq \pi$ \\
+ 	\section{Sequences}
+ 	A sequence can be thought of as a list of numbers written in a definite order ex. $a_1, a_2, ..., a_n$. The numbers have special names\\ $a_1$ is called the first term of the sequence. $(a_n)$ infinite sequence of numbers, $\{a_n\} = \{a_n: n \in\mathbb{N} \}$. \\
+ 	A sequence can be defined as a function whose domain is is the set $\mathbb{N}$. But we usually write $a_n$ instead of the function notation f(n).\\
+ 	Sequences can be defined by: 
+ 	\begin{enumerate}
+ 		\item By giving the formula for the nth term: $a_n = \frac{(-1)^{n+1}(n+\sqrt[n]{n})}{2^n}$
+ 		\item By a description: Let $a_n$ be the digit in the n-th decimal place of the number $\sqrt{2}$
+ 		\item By a recursive relation: $f_1 = 1, f_2 = 1, f_n = f_{n-1} + f_{n-2}\; \forall \; n \geq 3$
+ 	\end{enumerate}
+ \pagebreak
+ 	\subsection{Limit Laws for convergent sequences}
+ 	If $(a_n)$ and $(b_n)$ are convergent sequences and c is a constant then:
+ 	\begin{enumerate}
+ 		\item $\lim_{n \to \infty } (a_n+b_n) = \lim_{n\to\infty} a_n + \lim_{n\to\infty} b_n$
+ 		\item $\lim_{n \to \infty } (c*a_n) = c\lim_{n \to \infty } (a_n)$
+ 		\item $\lim_{n \to \infty } (a_n*b_n) = \lim_{n \to \infty } (a_n) * \lim_{n \to \infty } (b_n)$
+ 		\item $\lim_{n \to \infty } (\frac{a_n}{b_n}) = \frac{\lim_{n \to \infty } (a_n)}{\lim_{n \to \infty } (b_n)}$ if $\lim_{n \to \infty } (b_n) \neq 0$ 
+ 		\item $\lim_{n \to \infty } (a_n)^p = (\lim_{n \to \infty }a_n)^p$
+ 		\item $\lim_{n \to \infty } (\sqrt[n]{a_n}) = \sqrt[k]{\lim_{n \to \infty } (a_n)}$
+ 		\item $\lim_{n \to \infty } (\sqrt[n]{a}) = 1$
+ 		\item $\lim_{n \to \infty } (\sqrt[n]{n}) = 1$
+ 	\end{enumerate}
+ 	\subsubsection{Squeeze Theorem for sequences}
+ 	If $a_n \leq b_n \leq c_n$ for $n \geq n_0$.\\
+ 	and $\lim_{n\to\infty} a_n = \lim_{n\to\infty} c_n = L$, then $\lim_{n\to\infty} b_n = L$
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 \end{document}

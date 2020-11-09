@@ -1,20 +1,23 @@
-\contentsline {section}{\numberline {1}Rules}{2}%
-\contentsline {section}{\numberline {2}Requirements}{2}%
-\contentsline {section}{\numberline {3}Notation}{2}%
-\contentsline {subsection}{\numberline {3.1}Number sets}{2}%
-\contentsline {subsection}{\numberline {3.2}Sets notation}{2}%
-\contentsline {subsection}{\numberline {3.3}Cartesian Product}{3}%
-\contentsline {subsection}{\numberline {3.4}Quantifiers}{3}%
-\contentsline {section}{\numberline {4}Functions}{3}%
-\contentsline {subsection}{\numberline {4.1}The Vertical Line Test}{4}%
-\contentsline {subsection}{\numberline {4.2}Classes of functions}{4}%
-\contentsline {subsection}{\numberline {4.3}New functions from Old functions}{5}%
-\contentsline {subsection}{\numberline {4.4}Composite Functions}{6}%
-\contentsline {subsection}{\numberline {4.5}One-to-one functions}{7}%
-\contentsline {subsubsection}{\numberline {4.5.1}Horizontal Line Test}{7}%
-\contentsline {section}{\numberline {5}Logarithms}{8}%
-\contentsline {subsection}{\numberline {5.1}Laws of logarithms}{8}%
-\contentsline {section}{\numberline {6}Trigonometry}{9}%
-\contentsline {subsection}{\numberline {6.1}Trigonometric identities}{10}%
-\contentsline {subsection}{\numberline {6.2}Reduction formulas}{11}%
-\contentsline {subsection}{\numberline {6.3}Inverse of trigonometric functions / Cyclometric functions}{11}%
+\contentsline {section}{\numberline {1}Rules}{3}%
+\contentsline {section}{\numberline {2}Requirements}{3}%
+\contentsline {section}{\numberline {3}Notation}{3}%
+\contentsline {subsection}{\numberline {3.1}Number sets}{3}%
+\contentsline {subsection}{\numberline {3.2}Sets notation}{3}%
+\contentsline {subsection}{\numberline {3.3}Cartesian Product}{4}%
+\contentsline {subsection}{\numberline {3.4}Quantifiers}{4}%
+\contentsline {section}{\numberline {4}Functions}{4}%
+\contentsline {subsection}{\numberline {4.1}The Vertical Line Test}{5}%
+\contentsline {subsection}{\numberline {4.2}Classes of functions}{5}%
+\contentsline {subsection}{\numberline {4.3}New functions from Old functions}{6}%
+\contentsline {subsection}{\numberline {4.4}Composite Functions}{7}%
+\contentsline {subsection}{\numberline {4.5}One-to-one functions}{8}%
+\contentsline {subsubsection}{\numberline {4.5.1}Horizontal Line Test}{8}%
+\contentsline {section}{\numberline {5}Logarithms}{9}%
+\contentsline {subsection}{\numberline {5.1}Laws of logarithms}{9}%
+\contentsline {section}{\numberline {6}Trigonometry}{10}%
+\contentsline {subsection}{\numberline {6.1}Trigonometric identities}{11}%
+\contentsline {subsection}{\numberline {6.2}Reduction formulas}{12}%
+\contentsline {subsection}{\numberline {6.3}Inverse of trigonometric functions / Cyclometric functions}{12}%
+\contentsline {section}{\numberline {7}Sequences}{13}%
+\contentsline {subsection}{\numberline {7.1}Limit Laws for convergent sequences}{14}%
+\contentsline {subsubsection}{\numberline {7.1.1}Squeeze Theorem for sequences}{14}%
