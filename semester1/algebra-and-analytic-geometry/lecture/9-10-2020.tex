@@ -12,10 +12,11 @@
 \usepackage{graphicx}
 
 \begin{document}
-
+\graphicspath{{./imgs/}}
 \maketitle
 \tableofcontents
 \pagebreak
+\large
 \section{Sets of numbers}
 	\begin{itemize}
 		\item Natural Numbers $N = \{1, 2, 3, 4, ...\}$
@@ -113,7 +114,6 @@ As Vectors on the plane with a initial point at the origin of the plane \\ \\
 \begin{enumerate}
 	\item Addition:\\ f $z_1 = (x_1, y_1)$, $z_2 = (x_2, y_2) \in \mathbb{C}$, then their sum is defined to be $z_1 + z_2 = (x_1 + x_2, y_1 + y_2)$ \\
 	$(1, 0)+(b, 0) = (a+b, 0)$
-	\clearpage
 	\item Multiplication:\\ if $z_1 = (x_1, y_1), z_2 = (x_1, y_1)$ then their product is defined to be the number $z_1z_2=(x_1x_2 - y_1y_2,\; x_1y_2 + x_2y_1)$ \\
 	Example: $(1,2)*(3, -1) = (1*3 - 2(-1), \; 1(-1), 3*2) = (5, 5)$ \\
 	Properties: Commutative and Associative \\
@@ -134,11 +134,56 @@ As Vectors on the plane with a initial point at the origin of the plane \\ \\
 		\item $\overline{z*w} = \overline{z} * \overline{w}$
 		\item $\overline{z^n} = \overline{z}^n$
 	\end{enumerate}
+	\pagebreak
 	\item Modulus: \\
 	if $z=x+iy$ the modulus is $|z|=\sqrt{x^2 + y^2}$
-	
+	Properties: \\
+	\begin{itemize}
+		\item $|z| \geq 0$ and $|z|=0 \equiv z=0$
+		\item $|\bar{z}| = |z|$
+		\item $|zw| = |z|*|w|$
+		\item $|z^n| = |z|^n$   $n\in\mathbb{N}$
+		\item $|z+w| \leq |z| + |w|$
+		\item $z\bar{z} = |z|^2$
+	\end{itemize}
 \end{enumerate}
-		
+\subsection{Polar form}
+A polar form of a complex number $z\neq 0$ is the form $z=r(\cos(\alpha) + i\sin(\alpha))$, where $r>0$
+Example: \\
+\setstretch{1.2}
+\LARGE
+$z = 3(\cos(\frac{\pi}{2}) + i\sin(\frac{\pi}{2}))$ \\
+\large
+If $z=r(\cos\alpha + i\sin\alpha), \; w=rR(\cos\alpha + i\sin\alpha)$\\
+\begin{itemize}
+	\item $zw = rR[\cos(\alpha + \beta) + i\sin(\alpha + \beta)]$
+	\item $\frac{z}{w} = \frac{r}{R}[\cos(\alpha - \beta) + i\sin(\alpha - \beta)]$
+	\item $z^n = r^n [\cos(n\alpha) + i\sin(n\alpha)]$
+\end{itemize}
+\pagebreak
+\subsection{Geometry of algebra of complex numbers}
+\begin{figure}[h!]
+	\includegraphics[scale=0.25]{algebra-lecture1.png}
+	\includegraphics[scale=0.25]{2.png}
+	\centering
+\end{figure}
+
+3
+\subsection{Roots}
+Consider equation $z^n = W$. \\
+The $n^{th}$ root of a complex number w is the set $\{z: z^n=w\}$. We denote it by $\sqrt[n]{w}$.
+Properties: 
+\begin{itemize}
+	\item If $w=0$, then $\sqrt[n]{0} = \{0\}$
+	\item if $w\neq 0$, then $\sqrt[n]{0}$ has exactly n elements
+\end{itemize}
+Examples: 
+\begin{itemize}
+	\item $\sqrt{-1} = \{i, -i\}$
+	\item $\sqrt{4}^{(\mathbb{C})} = \{2, -2\}$ it may be a real or complex root
+\end{itemize}
+If $w = r(\cos\alpha + i\sin\alpha)$, then $z^n=w$ has exactly  n solutions given by 
+$z_k = \sqrt[n]{r}[\cos(\frac{\alpha + 2k\pi}{n}) + i\sin(\frac{\alpha + 2k\pi}{k})]$.
 
 
 

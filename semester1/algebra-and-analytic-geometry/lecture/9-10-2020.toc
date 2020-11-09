@@ -3,9 +3,12 @@
 \contentsline {section}{\numberline {3}Divisibility}{2}%
 \contentsline {section}{\numberline {4}Prime Numbers}{2}%
 \contentsline {subsection}{\numberline {4.1}Theorem}{2}%
-\contentsline {section}{\numberline {5}Principle of Mathematical Induction}{2}%
+\contentsline {section}{\numberline {5}Principle of Mathematical Induction}{3}%
 \contentsline {section}{\numberline {6}Binomial formula}{3}%
 \contentsline {subsection}{\numberline {6.1}Theorem}{3}%
 \contentsline {subsection}{\numberline {6.2}Find a given coefficient of a given equation}{3}%
-\contentsline {section}{\numberline {7}Complex numbers}{3}%
+\contentsline {section}{\numberline {7}Complex numbers}{4}%
 \contentsline {subsection}{\numberline {7.1}Operations on complex numbers}{4}%
+\contentsline {subsection}{\numberline {7.2}Polar form}{6}%
+\contentsline {subsection}{\numberline {7.3}Geometry of algebra of complex numbers}{7}%
+\contentsline {subsection}{\numberline {7.4}Roots}{8}%

@@ -5,3 +5,5 @@
 \contentsline {section}{\numberline {5}Logic Laws}{3}%
 \contentsline {section}{\numberline {6}The basics of Set Theory}{3}%
 \contentsline {subsection}{\numberline {6.1}Notation}{3}%
+\contentsline {subsection}{\numberline {6.2}Power Sets}{3}%
+\contentsline {section}{\numberline {7}Algebra and logic}{4}%
