@@ -12,3 +12,4 @@
 \contentsline {subsection}{\numberline {7.2}Polar form}{6}%
 \contentsline {subsection}{\numberline {7.3}Geometry of algebra of complex numbers}{7}%
 \contentsline {subsection}{\numberline {7.4}Roots}{8}%
+\contentsline {section}{\numberline {8}Polynomials}{8}%
