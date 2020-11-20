@@ -1,15 +1,23 @@
-\contentsline {section}{\numberline {1}Sets of numbers}{2}%
-\contentsline {section}{\numberline {2}Operation law on numbers}{2}%
-\contentsline {section}{\numberline {3}Divisibility}{2}%
-\contentsline {section}{\numberline {4}Prime Numbers}{2}%
-\contentsline {subsection}{\numberline {4.1}Theorem}{2}%
-\contentsline {section}{\numberline {5}Principle of Mathematical Induction}{3}%
-\contentsline {section}{\numberline {6}Binomial formula}{3}%
-\contentsline {subsection}{\numberline {6.1}Theorem}{3}%
-\contentsline {subsection}{\numberline {6.2}Find a given coefficient of a given equation}{3}%
-\contentsline {section}{\numberline {7}Complex numbers}{4}%
-\contentsline {subsection}{\numberline {7.1}Operations on complex numbers}{4}%
-\contentsline {subsection}{\numberline {7.2}Polar form}{6}%
-\contentsline {subsection}{\numberline {7.3}Geometry of algebra of complex numbers}{7}%
-\contentsline {subsection}{\numberline {7.4}Roots}{8}%
-\contentsline {section}{\numberline {8}Polynomials}{8}%
+\contentsline {chapter}{\numberline {1}Complex Numbers}{2}%
+\contentsline {section}{\numberline {1.1}Sets of numbers}{2}%
+\contentsline {section}{\numberline {1.2}Operation law on numbers}{2}%
+\contentsline {section}{\numberline {1.3}Divisibility}{2}%
+\contentsline {section}{\numberline {1.4}Prime Numbers}{3}%
+\contentsline {subsection}{\numberline {1.4.1}Theorem}{3}%
+\contentsline {section}{\numberline {1.5}Principle of Mathematical Induction}{3}%
+\contentsline {section}{\numberline {1.6}Binomial formula}{3}%
+\contentsline {subsection}{\numberline {1.6.1}Theorem}{3}%
+\contentsline {subsection}{\numberline {1.6.2}Find a given coefficient of a given equation}{4}%
+\contentsline {section}{\numberline {1.7}Complex numbers}{4}%
+\contentsline {subsection}{\numberline {1.7.1}Operations on complex numbers}{5}%
+\contentsline {subsection}{\numberline {1.7.2}Polar form}{6}%
+\contentsline {subsection}{\numberline {1.7.3}Geometry of algebra of complex numbers}{7}%
+\contentsline {subsection}{\numberline {1.7.4}Roots}{8}%
+\contentsline {section}{\numberline {1.8}Polynomials}{8}%
+\contentsline {subsection}{\numberline {1.8.1}Bezout Theorem}{9}%
+\contentsline {subsection}{\numberline {1.8.2}Fundamental Theorem of Algebra}{9}%
+\contentsline {subsection}{\numberline {1.8.3}Rational Functions}{9}%
+\contentsline {subsubsection}{Theorem}{10}%
+\contentsline {subsubsection}{Partial Fraction}{10}%
+\contentsline {subsubsection}{Partial fractions decomposition}{10}%
+\contentsline {chapter}{\numberline {2}Matrices}{11}%

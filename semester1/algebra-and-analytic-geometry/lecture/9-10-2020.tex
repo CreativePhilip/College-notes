@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{report}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -8,7 +8,7 @@
 \author{Philip Policki}
 \date{9th October 2020}
 
-\usepackage{natbib}
+%\usepackage{natbib}
 \usepackage{graphicx}
 
 \begin{document}
@@ -17,6 +17,7 @@
 \tableofcontents
 \pagebreak
 \large
+\chapter{Complex Numbers}
 \section{Sets of numbers}
 	\begin{itemize}
 		\item Natural Numbers $N = \{1, 2, 3, 4, ...\}$
@@ -167,8 +168,6 @@ If $z=r(\cos\alpha + i\sin\alpha), \; w=rR(\cos\alpha + i\sin\alpha)$\\
 	\includegraphics[scale=0.25]{2.png}
 	\centering
 \end{figure}
-
-3
 \subsection{Roots}
 Consider equation $z^n = W$. \\
 The $n^{th}$ root of a complex number w is the set $\{z: z^n=w\}$. We denote it by $\sqrt[n]{w}$.
@@ -204,24 +203,49 @@ If $a_0, a_1, ..., a_n \in\mathbb{R}$, then W(z) is called a real polynomial. We
 \end{itemize}
 We can always divide two polynomials: $W(Z) : P(Z) = Q(z)$. If $W(Z), P(Z)$ are polynomials, then there are polynomials $Q(Z), R(Z)$ such  that $W(Z) = P(Z)Q(Z) + R(Z)$ \\ \\
 A complex number $z_0$ is a root of a polynomial $W(Z)$ if $W(z_0) = 0$.\\ \\
-Bezout Theorem: \\
-$z_0$ is a root of $W(z)\Leftrightarrow W(z)$  is divisible by $z_0$ \\
-Fundamental Theorem of Algebra: \\
+\subsection{Bezout Theorem}
+$z_0$ is a root of $W(z)\Leftrightarrow W(z)$  is divisible by $z_0$ \\ \\
+\subsection{Fundamental Theorem of Algebra}
 Every polynomial of degree $\geq$ 1 has at least one complex root. If $W(z)$ is a polynomial of degree $n\geq 1$, then there are complex numbers $z_1, z_2, ..., z_n$ such that $W(z) = A(z-z_1)(z-z_2) ... (z-z_n)$
 
 
 
+\subsection{Rational Functions}
+A rational function is a function of the form $f(x) = \frac{P(x)}{Q(x)}$, where P, Q are polynomials. \\
+$f(x) = \frac{4x^2 - x + 2}{x-3ix^3}$.\\
+If both P(x), Q(x) are real polynomials, then $f(x) = \frac{P(x)}{Q(x)}$ is called a \underline{real rational function}.\\
+A rational function $f(x) = \frac{P(x)}{Q(x)}$ is called a \underline{proper rational function} if the degP $<$ degQ.\\
+
+\subsubsection{Theorem}
+If $f(x) = \frac{P(x)}{Q(x)}$ is a rational function, then it can be written as a sum of a polynomial and a proper rational function. \\
+Every real rational function is a sum of a real polynomial and a real proper rational function.
 
 
 
+\subsubsection{Partial Fraction}
+A partial fraction is a (proper) rational function of the form:
+\Large
+\begin{itemize}
+	\item $\frac{A}{(x-a)^n}$, $A\in\mathbb{R}$, $n\in\mathbb{N}$ 1st type
+	\item $\frac{Ax + B}{(ax^2 + bx  + c)^m}$, $A,B,a,b,c\in\mathbb{R}$, $m\in\mathbb{N}$ 2nd Type
+\end{itemize}
+\large
+
+
+\subsubsection{Partial fractions decomposition}
+Every proper rational function can be written as a sum of partial fractions. Moreover if $\frac{P(x)}{Q(x)}$ is a proper rational function then
+\begin{itemize}
+	\item If $(x-a)^n$ is a factor of $Q(x)$ and $(x-a)^{n+1}$ is not, then in partial fractions decomposition we will get terms, $\frac{A_1}{(x-a)^1}$, $\frac{A_2}{(x-a)^2}$, ..., $\frac{A_n}{(x-a)^n}$
+	\item If $ax^2 + bx + c$ with $\Delta < 0$ appears in decomposition of $Q(x)$ exactly n times
+	\item No other terms will appear in the decomposition of $\frac{P(x)}{Q(x)}$
+\end{itemize}
+\LARGE
+If $W_1(x) = a_0, a_1x + ... + a_nx^n$, $W_2(x) = b_0, b_1x + ... + b_nx^n$, then $W_1 = W_2 \leftrightarrow \\ \forall_{x\in\mathbb{R}} W_1(x) = W_2(x) \leftrightarrow \\ \forall_{k=0, 1, 2, ... , n} a_k = b_k \leftrightarrow \\ \forall_{z\in\mathbb{C}} W_1(z) = W_2(x)$
+\large
 
 
 
-
-
-
-
-
+\chapter{Matrices}
 
 
 
