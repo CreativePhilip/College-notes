@@ -21,3 +21,5 @@
 \contentsline {subsubsection}{Partial Fraction}{10}%
 \contentsline {subsubsection}{Partial fractions decomposition}{10}%
 \contentsline {chapter}{\numberline {2}Matrices}{11}%
+\contentsline {section}{\numberline {2.1}Algebra of Matrices}{11}%
+\contentsline {subsection}{\numberline {2.1.1}Special Types of Matrices}{11}%
