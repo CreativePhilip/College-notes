@@ -24,3 +24,5 @@
 \contentsline {subsection}{\numberline {7.2}Monotonic sequence theorem}{14}%
 \contentsline {subsection}{\numberline {7.3}Infinite Limits}{14}%
 \contentsline {subsubsection}{\numberline {7.3.1}Infinity Theorem}{14}%
+\contentsline {section}{\numberline {8}Limits Involving Infinity}{15}%
+\contentsline {section}{\numberline {9}Asymptotes}{15}%
