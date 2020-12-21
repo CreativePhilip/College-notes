@@ -257,7 +257,34 @@ Matrices 1 x 2 can be identified with points on a plane (with coordinate system)
 	\item Square matrices, they have size of n x n
 \end{enumerate}
 
+\section{Kronecker-Capelli Theorem}
+A system $AX = B$ has a solution $ \Leftrightarrow $ rank(A) = rank([$A | B$]) \\
+Moreover if the system has m equations in n variables, then if 
+\begin{enumerate}
+	\item rank(A) = rank([$A | B$]) = n, then the system AX = B has a unique solution
+	\item rank(A) = rank([$A | B$]) < n, then the system AX = B has an infinite number of solutions, depending on n-k parameters.
+\end{enumerate}
 
 
+\chapter{Analytic Geometry}
+$R^n$ is a set of {($x_1, x_2, x_n$)!, $x_1, ..., x_n \in\mathbb{R}$}. Elements of $R^n$ will be called vectors and we will denote them by $\vec{u}$, $\vec{w}$
 
+\section{Geometric interpretation}
+\begin{enumerate}
+	\item $R^1$ can be interpreted as points on a line
+	\item $R^2$ can be interpreted as vectors or points on a plane
+	\item $R^3$ can be interpreted as vectors in 3d space
+\end{enumerate}
+
+\section{Operations in $R^n$}
+\begin{enumerate}
+	\item Vector addition same as in matrices
+	\item Multiplication by a number same as in matrices
+	\item Dot product $\vec{u} \circ \vec{v} = x_1y_1 + x_2y_2 + ... + x_ny_n$
+\end{enumerate}
+
+\section{Operations in $R^3$}
+\begin{enumerate}
+	\item $\vec{u} * \vec{u} = (y_1z_2 - y_2z_1, -(x_1z_2 - x_2z_1), x_1y_2-x_2y_1)$
+\end{enumerate}
 \end{document}

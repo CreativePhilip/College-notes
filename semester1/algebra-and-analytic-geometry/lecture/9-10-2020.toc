@@ -23,3 +23,8 @@
 \contentsline {chapter}{\numberline {2}Matrices}{11}%
 \contentsline {section}{\numberline {2.1}Algebra of Matrices}{11}%
 \contentsline {subsection}{\numberline {2.1.1}Special Types of Matrices}{11}%
+\contentsline {section}{\numberline {2.2}Kronecker-Capelli Theorem}{11}%
+\contentsline {chapter}{\numberline {3}Analytic Geometry}{13}%
+\contentsline {section}{\numberline {3.1}Geometric interpretation}{13}%
+\contentsline {section}{\numberline {3.2}Operations in $R^n$}{13}%
+\contentsline {section}{\numberline {3.3}Operations in $R^3$}{13}%

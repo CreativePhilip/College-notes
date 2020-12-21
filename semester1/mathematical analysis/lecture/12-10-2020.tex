@@ -316,8 +316,96 @@ The line x=a is called a vertical asymptote if the curve y=f(x) if at least one 
 \begin{enumerate}
 	\item $\lim\limits_{x\to a} f(x) = \infty$
 	\item $\lim\limits_{x\to a} f(x) = -\infty$
-\end{enumerate}
+\end{enumerate} 
+\section{Continuity}
+ A function f is continuous at a if $\lim\limits_{x\to a} f(x) = f(a)$. \\
+ A function f is continuous at a if and only id it is continuous from the right and continuous from the left at a. \\ \\
+ A function f is continuous on a open interval (a, b) if it is continuous at every number in the interval.\\ We say that f is continuous on [a, b] if it is continuous on (a, b) and if f is continuous from the right at a and continuous from the left at b. 
+ \underline{Example:}\\
+ \begin{itemize}
+ 	\item f(x) = x is continuous on $\mathbb{R}$
+ 	\item f(x) = sign(x) is continuous on $(0, \infty)$ and $(-\infty)$, is discontinuous at 0
+ 	\item f(x) = tg(x) is continuous on $(\frac{-\pi}{2}, \frac{\pi}{2})$
+ 	\item f(x) = arcsin(x) is continuous on [-1, 1]
+ 	\item f(x) = arctan(x) is continuous on $\mathbb{R}$
+ \end{itemize}
 
+\subsection{Theorem}
+If f and g are continuous at a and $c\in\mathbb{R}$, then the following functions are also continuous functions at a. 
+\begin{itemize}
+	\item f + g
+	\item f - g
+	\item c*f
+	\item f*g
+	\item $\frac{f}{g}$ if $g(a) \neq 0$
+\end{itemize}
+\underline{Corollary}
+\begin{itemize}
+	\item Any polynomial is continuous everywhere
+	\item Any rational function is continuous whenever it is defined, that is, it is continuous on its domain
+\end{itemize}
+
+\subsection{Theorem}
+If f is continuous at b and $\lim\limits_{x\to a} g(x)=b$, then $\lim\limits_{x\to a} f(g(x)) = f(b)$ \\
+In other words $\lim\limits_{x\to a}f(g(x)) = f(\lim\limits_{x\to a}g(x))$.
+
+\subsection{Theorem}
+If g is continuous at a and f is continuous at g(a) then (f comp g) is continuous at a.
+\subsection{Theorem}
+Suppose that f is continuous on the closed interval [a, b] and let $\alpha$ be any number between f(a) and f(b). Then there exists a number $c\in (a, b)$ such that f(c) = $\alpha$
+\section{Derivatives}
+The derivative of a function f at a number a, denoted f'(a) is $f'(a) = \lim\limits_{s\to 0} \frac{f(a + s)- f(a)}{s}$ or $f'(a) = \lim\limits_{t\to x} \frac{f(t)- f(x)}{t-x}$.
+\\
+A derivative is the slope of a tangent line. \\
+A function f is differentiable at $x_0 if f'(x_0) exists$.
+\subsection{Theorem}
+If f is differentiable at $x_0$, then f is continuous at $x_0$
+\\ \\
+How can a function fail to be differentiable?
+\begin{enumerate}
+	\item Has a 'corner'
+	\item Is discontinuous as $x_0$
+	\item Has a vertical tangent
+\end{enumerate} 
+ 
+ 
+\subsection{Derivative rules}
+\begin{itemize}
+	\item $ (cf)'(x) = c * f'(x)$
+	\item $ (f \pm g)'(x) = f'(x) \pm g'(x) $
+	\item $ f(x) = \sin x$  $ f'(x) = \cos x$
+	\item $ f(x) = \cos x$  $ f'(x) = -\sin x $
+	\item $ (f*g)'(x) = f'(x)*g(x) + f(x)*g'(x)$
+	\item $ f(x) = c^x $  $ f'(x) = c^x \ln c $
+	\item $ (\frac{f}{g})'(x) = \frac{f'(x)*g(x) - f(x)*g'(x)}{(g(x))^2}$
+	\item $ (f \circ g)'(x) = f'(g(x)) * g'(x) $
+	\item $ (f \circ g \circ h)'(x) = f'(g(h(x)) * g'(h(x)) * h'(x) $
+	\item $ (log_a x)' = \frac{1}{x \ln a} $
+\end{itemize}
+
+\subsection{Derivatives of Inverse Functions}
+Let f be a strictly monotonic function such that:
+\begin{enumerate}
+	\item f is continuous near $x_0$
+	\item f is differentiable at $x_0$ and $f'(x_0) \neq 0$
+\end{enumerate} 
+Then $f^{-1}(y_0) = \frac{1}{f'(x_0)}$
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
