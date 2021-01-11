@@ -28,3 +28,5 @@
 \contentsline {section}{\numberline {3.1}Geometric interpretation}{13}%
 \contentsline {section}{\numberline {3.2}Operations in $R^n$}{13}%
 \contentsline {section}{\numberline {3.3}Operations in $R^3$}{13}%
+\contentsline {section}{\numberline {3.4}Planes and lines in $R^3$}{14}%
+\contentsline {subsection}{\numberline {3.4.1}Plane}{14}%

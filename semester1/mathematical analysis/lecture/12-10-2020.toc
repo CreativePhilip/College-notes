@@ -35,3 +35,9 @@
 \contentsline {subsection}{\numberline {11.1}Theorem}{17}%
 \contentsline {subsection}{\numberline {11.2}Derivative rules}{17}%
 \contentsline {subsection}{\numberline {11.3}Derivatives of Inverse Functions}{18}%
+\contentsline {subsection}{\numberline {11.4}Other}{18}%
+\contentsline {section}{\numberline {12}Indeterminate Forms}{18}%
+\contentsline {subsection}{\numberline {12.1}L'Hospital}{18}%
+\contentsline {subsection}{\numberline {12.2}Indeterminate Powers}{18}%
+\contentsline {section}{\numberline {13}Maxima and Minima}{18}%
+\contentsline {subsection}{\numberline {13.1}Fermat's Theorem}{18}%

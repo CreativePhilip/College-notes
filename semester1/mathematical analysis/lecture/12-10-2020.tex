@@ -391,23 +391,31 @@ Let f be a strictly monotonic function such that:
 \end{enumerate} 
 Then $f^{-1}(y_0) = \frac{1}{f'(x_0)}$
  
+\subsection{Other}
+$h(x) = f(x)^{g(x)} = [e^{\ln f(x)}]^{g(x)}$  \\
+$h'(x) = e^{g(x) * \ln f(x)} * [g'(x)\ln f(x) + g(x)\frac{f'(x)}{f(x)}]$
+ 
+ 
+ \section{Indeterminate Forms}
+ \subsection{L'Hospital}
+ Suppose g and f are differentiable and g'(x) = 0 near $x_0$ (except possibly at $x_0$)\\
+ Suppose that $\lim\limits_{x\to x_0} f(x)$ and $ \lim\limits_{x\to\infty} g(x)=0$ or $\lim\limits_{x\to x_0} f(x) \neq \pm$ and $\lim\limits_{x\to x_0}g(x) = \pm\infty$\\ 
+ Then if the limit $\lim\limits_{x\to x_0} \frac{f'(x)}{g'(x)}$ exists then $ \lim\limits_{x\to x_0}  \frac{f(x)}{g(x)} = \lim\limits_{x\to x_0}  \frac{f'(x)}{g'(x)} $
  
  
  
+\subsection{Indeterminate Powers}
+$0^0$, $\infty^0$, $1^\infty$ \\
+$f(x)^{g(x)} = e^{g(x)*\ln f(x)}$, $\lim\limits_{x\to x_0} e^{g(x)*\ln f(x)} = e^{\lim\limits_{x\to x_0}g(x)*\ln f(x)}$
+
+\section{Maxima and Minima}
+A function has a local maximum (minimum) at $x_0$ if $f(x_0) \geq f(x)$ ($f(x_0) \leq f(x)$) when x is near $x_0$
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+\subsection{Fermat's Theorem}
+If f has a local maximum or minimum at $x_0$, and if f'(x) exists, then f'($x_0$) = 0.\\
+The converse of Fermat's theorem is false in general when f'($x_0$) = 0, f does not necessarily have a max on min at $x_0$. For example f(x) = $x^3$.
  
  
  
