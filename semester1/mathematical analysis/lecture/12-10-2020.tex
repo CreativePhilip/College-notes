@@ -418,14 +418,49 @@ If f has a local maximum or minimum at $x_0$, and if f'(x) exists, then f'($x_0$
 The converse of Fermat's theorem is false in general when f'($x_0$) = 0, f does not necessarily have a max on min at $x_0$. For example f(x) = $x^3$.
  
  
+ \subsection{Mean value Theorem}
+If f is continuous on [a, b] and differentiable on [a,b], then there exists a number c $\in$[a,b] such that $f'(c) = \frac{f(b) - f(a)}{b-a}$
+\subsubsection{Increasing / decreasing Test}
+\begin{enumerate}
+	\item If f'(x) $>$ 0 on an interval, then f is increasing on that interval. 
+	\item If f'(x) $>$ 0 on an interval, then f is decreasing on that interval.
+\end{enumerate}
  
+\section{The Second Derivative Test}
+Suppose f''(x) is continuous near c.
+\begin{enumerate}
+	\item If $f'(c) = 0$ and $f''(c) > 0$, then f has a local minimum at c.
+	\item If $f'(c) = 0$ and $f''(c) < 0$, then f has a local maximum at c.
+\end{enumerate}
  
- 
- 
- 
- 
- 
- 
+\section{Indefinite Integrals}
+\subsection{Anti derivative}
+A function F is called anti-derivative of f on an interval I, if the derivative F'(x) = f(x) for all x in I.
+\\ 
+The notation $\int f(x)dx$ is traditionally used to denote the family of all anti derivatives of f. \\
+$\int f(x)dx = F(x) + C$ \\
+where F is an anti derivative of f.\\
+\subsection{Integral rules}
+\begin{enumerate}
+	\item $\int cf(x)dx = c\int f(x)dx$
+	\item $\int (f(x) + g(x))dx = \int f(x)dx + \int g(x)dx$
+\end{enumerate}
+\pagebreak
+\subsection{Table of Indefinite Integrals}
+\begin{enumerate}
+	\item $\int x^\alpha dx= \frac{x^{\alpha + 1}}{\alpha + 1} + c$ where $\alpha \neq 0$
+	\item $\int \frac{1}{x}dx = \ln |x| + c$ where $\alpha = 0$
+	\item $\int a^x dx = \frac{a^x}{\ln a} + c$
+	\item $\int\frac{1}{\cos^2x}dx = \tan x + c$
+	\item $\int\frac{dx}{\sqrt{1-x^2}} = \pm\arcsin x + c$ 
+\end{enumerate}
+
+\subsection{The substitution rule}
+If n = g(x) is a differentiable function whose range is an interval I and f in continuous on I, then $\int f(g(x))) * g'(x)dx = \int f(u)du$\\
+
+\subsection{Integration by parts}
+If $f'$ and $g'$  are continuous on I, then $\int f'(x)g(x)dx = f(x)g(x) - \int f(x)g'(x)dx$
+
  
  
  
